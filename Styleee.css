@@ -1,3 +1,4 @@
-.main-title {
-border: 4 px double;
+.main-title{
+  text-align: center;
+  line-height: 350px;
 }
