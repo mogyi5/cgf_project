@@ -1,4 +1,10 @@
 .main-title{
   text-align: center;
   line-height: 350px;
+  color: white;
+  /* vertical-align: middle; */
+}
+
+h1{
+  background-color: black;
 }
