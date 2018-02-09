@@ -1,10 +1,55 @@
-.main-title{
-  text-align: center;
-  line-height: 350px;
-  color: white;
-  /* vertical-align: middle; */
+html {
+  background:  url(http://upload.wikimedia.org/wikipedia/commons/d/dd/Muybridge_race_horse_animated.gif) no-repeat center center fixed;
+  background-size: cover;
 }
 
-h1{
+body{
   background-color: black;
+  height: 100%;
 }
+
+.main-title{
+  font-size: 64px;
+  margin: 0;
+  padding: 0;
+
+  position:absolute;
+  top: 45%;
+  left: 25%;
+  font-family: 'Archivo Black', sans-serif;
+  color: white;
+  }
+
+  .thin{
+    font-weight: lighter;
+  }
+
+  body{
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+         -moz-animation: fadein 2s; /* Firefox < 16 */
+          -ms-animation: fadein 2s; /* Internet Explorer */
+              animation: fadein 2s;
+  }
+
+  @keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
+
+  /* Firefox < 16 */
+  @-moz-keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
+
+  /* Safari, Chrome and Opera > 12.1 */
+  @-webkit-keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
+
+  /* Internet Explorer */
+  @-ms-keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
