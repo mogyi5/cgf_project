@@ -1,5 +1,5 @@
 html {
-  background:  url(http://upload.wikimedia.org/wikipedia/commons/d/dd/Muybridge_race_horse_animated.gif) no-repeat center center fixed;
+  background:  url(https://media.giphy.com/media/IeCVaFnmXFpjq/giphy.gif) no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -20,9 +20,19 @@ body{
   color: white;
   }
 
+  @media (max-width:500px) {
+    main-title {
+      font-size: 36px;
+    }
+    div {
+      margin: 10px;
+    }
+  }
+
   .thin{
     font-weight: lighter;
   }
+
 
   body{
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
