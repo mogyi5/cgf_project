@@ -1,10 +1,19 @@
 .main-title{
   text-align: center;
-  line-height: 350px;
+
   color: white;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 40px
   /* vertical-align: middle; */
 }
 
 h1{
   background-color: black;
 }
+
+.tabs {
+    display: inline-block;
+    padding-right: 10px;
+    text-align: center;
+    color: white;
+  }
