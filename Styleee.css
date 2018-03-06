@@ -1,18 +1,125 @@
-.main-title
+#pagewrap {
+     width: auto;
+     height: auto;
+     margin: 0;
+     position: absolute;
+}
+
+
+/*Do the zoom in thing at the start*/
+@-webkit-keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.main-title{
+  margin: 0;
+  height: 100%;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+
+
+  -webkit-animation-name:zoomIn;
+  -webkit-animation-duration: 2s;
+  animation-name: zoomIn;
+}
+
+#title_text{
   text-align: center;
   color: white;
   font-family: 'Bungee Shade', cursive;
-  font-size: 40px
-  /* vertical-align: middle; */
-}
-
-h1{
+  font-size: 60px;
   background-color: black;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+  align-self: center;
 }
 
-.tabs {
-    display: inline-block;
-    padding-right: 10px;
-    text-align: center;
-    color: white;
-  }
+body{
+  /*flying pizza cats*/
+  /*background:  url(https://media.giphy.com/media/IeCVaFnmXFpjq/giphy.gif) no-repeat center center fixed; */
+  /*calvin and hobbes night sky*/
+  background:  url(https://media.giphy.com/media/dqW8RSNNJMRrO/giphy.gif) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+}
+
+body {
+  height: auto;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/*----------navigation bar-------------------------*/
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  font-family: Arial, Helvetica, cursive;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(70,130,180);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*---------------------------------------------*/
