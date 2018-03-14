@@ -131,6 +131,8 @@ nav div a:hover {
   margin-bottom: auto;
 }
 
+
+
 .about-title h1 {
   font-family: 'Amatic SC', cursive;
   font-size: 95px !important;
@@ -199,3 +201,4 @@ nav a:hover, .dropdown:hover .dropbtn {
 .dropdown:hover .dropdown-content {
   display: block;
 } */
+
