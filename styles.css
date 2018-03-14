@@ -37,7 +37,7 @@ body#content {
 
 .layer {
   background-color: rgba(242, 242, 242, 0.85);
-  height: 800px;
+  height: 2000px;
   transform: translateY(-30px);
   padding-top: 30px;
   margin-left: auto;
@@ -145,6 +145,11 @@ nav div a:hover {
   color: #ffff;
   margin-bottom: auto;
   margin-top: auto;
+}
+
+.col-sm-6 h2 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 60px;
 }
 
 /* .subtext p {
