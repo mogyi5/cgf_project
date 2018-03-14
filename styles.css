@@ -11,13 +11,18 @@ html, body {
 }
 
 body#about {
-  background: url(https://media0.giphy.com/media/U3qYN8S0j3bpK/giphy.gif) no-repeat center center fixed;
+  background: url(https://78.media.tumblr.com/940ba436387ed793e381fbaca98ef5dc/tumblr_o4irriWdp21ue6sx2o1_500.gif) no-repeat center center fixed;
   overflow-y: auto;
 }
 
 body#home {
   background: url(https://media.giphy.com/media/dqW8RSNNJMRrO/giphy.gif) no-repeat center center fixed;
   overflow-y: hidden;
+}
+
+body#content {
+  background: url(https://media.giphy.com/media/pfGGWGw7UVqA8/giphy.gif) no-repeat center center fixed;
+  overflow-y: auto;
 }
 
 .parentcontainer {
@@ -32,12 +37,23 @@ body#home {
 
 .layer {
   background-color: rgba(242, 242, 242, 0.85);
-  height: 500px;
+  height: 800px;
   transform: translateY(-30px);
   padding-top: 30px;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
+}
+
+/*  jumbotron */
+
+.container {
+  padding-top: 20px;
+}
+
+.jumbotron {
+  height: 150px;
+  text-align: center;
 }
 
 /* Twitter */
@@ -115,12 +131,32 @@ nav div a:hover {
   margin-bottom: auto;
 }
 
-/*----------navigation bar-------------------------*/
+.about-title h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 95px !important;
+  color: #ffff;
+  margin-bottom: auto;
+  margin-top: auto;
+}
 
-/* .dropdown {
+.content-title h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 95px !important;
+  color: #ffff;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+/* .subtext p {
+  font-size: 40px;
+} */
+
+/* ----------navigation bar-------------------------.dropdown*/
+
+/* {
   float: left;
   overflow: hidden;
-}
+ }
 
 .dropdown .dropbtn {
   font-size: 16px;

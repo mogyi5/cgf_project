@@ -1,4 +1,4 @@
-body {
+/* body {
   text-align: center;
 }
 
@@ -8,21 +8,23 @@ body {
   right: 12.5%;
   height: 100%;
   z-index: -1;
-}
+} */
 
-.container {
+/* .container {
   z-index: +1;
-}
+} */
 
-.main-title h1 {
-  /* font-family: 'Fredericka the Great', cursive; */
-  font-size: 90px !important;
+/* .content-title h1 { */
+
+/* font-family: 'Fredericka the Great', cursive; */
+
+/* font-size: 90px !important;
   font-family: 'Amatic SC', cursive;
   text-align: center;
   color: rgba(0, 0, 0, 0.8);
   z-index: +1;
   margin: 0;
-}
+} */
 
 .navigation a {
   position: static;
