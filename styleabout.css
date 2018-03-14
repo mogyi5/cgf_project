@@ -1,42 +1,39 @@
 body{
-  /*flying pizza cats*/
-  /*background:  url(https://media.giphy.com/media/IeCVaFnmXFpjq/giphy.gif) no-repeat center center fixed; */
-  /*calvin and hobbes night sky*/
+
   background:  url(https://media0.giphy.com/media/U3qYN8S0j3bpK/giphy.gif) no-repeat center center fixed;
   background-size: cover;
   height: 100%;
   z-index: -2;
   text-align: center;
-  /* background-color:#FFE8CC; */
-  /* height: auto;
-  vertical-align: top; */
-
-  /* background: white; */
-  /* background-size: 1200px 800px; */
 }
 
 .layer {
-  background-color: rgba(250, 250, 250, 0.95);
+  background-color: rgba(242, 242, 242, 0.85);
   position: fixed;
   top: 0;
-  left: 12%;
-  right: 12%;
+  left: 12.5%;
+  right: 12.5%;
   height: 100%;
   z-index: -1;
 }
 
+.container {
+z-index: +1;
+}
 
-.main-title{
+
+.main-title h1 {
   /* font-family: 'Fredericka the Great', cursive; */
 font-size: 90px;
 font-family: 'Amatic SC', cursive;
 text-align: center;
-color:#FFE8CC;
+color: rgba(0, 0, 0, 0.8);
 z-index: +1;
 }
 
 
 .navigation  a{
+  position: static;
   font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
   color:white;
   border: none;
@@ -48,17 +45,13 @@ z-index: +1;
   font-size: 30px;
   margin: 40px 200px;
   border-radius: 50%;
-  z-index: +1;
+  z-index: +2;
 }
 
 .navigation a:hover {
   background-color: rgba(140, 137, 135, 0.41);
 }
 
-/* .h1{
-  color: white;
-  z-index: +1;
-} */
 
 h4 {
   color: #FFE8CC;
