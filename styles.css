@@ -37,12 +37,16 @@ body#content {
 
 .layer {
   background-color: rgba(242, 242, 242, 0.85);
-  height: 2000px;
+  height: 1500px;
   transform: translateY(-30px);
   padding-top: 30px;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
+}
+
+.form-group {
+  margin-bottom: 20px;
 }
 
 /*  jumbotron */
