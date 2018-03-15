@@ -89,6 +89,7 @@ body#content {
   color: white;
   font-size: 80px;
   text-align: center;
+  /* margin: 10px; */
 }
 
 /* Style all font awesome icons */
@@ -99,6 +100,7 @@ body#content {
   text-align: justify;
   text-decoration: none;
   border-radius: 90%;
+  margin: 20px;
 }
 
 /* Add a hover effect  */
