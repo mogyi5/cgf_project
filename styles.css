@@ -37,7 +37,7 @@ body#content {
 
 .layer {
   background-color: rgba(242, 242, 242, 0.85);
-  height: 1500px;
+  height: 1300px;
   transform: translateY(-30px);
   padding-top: 30px;
   margin-left: auto;
@@ -60,7 +60,7 @@ body#content {
   text-align: center;
 }
 
-/* Twitter */
+/* Instagram*/
 
 .fa-instagram {
   background: #125688;
@@ -71,7 +71,7 @@ body#content {
 
 .fa {
   padding: 20px;
-  font-size: 30px;
+  font-size: 60px;
   width: 30px;
   text-align: center;
   text-decoration: none;
@@ -97,7 +97,7 @@ nav div a {
 }
 
 nav div a:hover {
-  background-color: rgba(140, 137, 135, 0.41);
+  opacity: 0.7;
 }
 
 /*Do the zoom in thing at the start*/
@@ -151,7 +151,7 @@ nav div a:hover {
   margin-top: auto;
 }
 
-.col-sm-8 {
+h2 {
   font-family: 'Amatic SC', cursive;
   font-size: 60px;
 }
