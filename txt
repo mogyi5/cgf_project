@@ -8,23 +8,19 @@
   right: 12.5%;
   height: 100%;
   z-index: -1;
-} */
+}
 
-/* .container {
+.container {
   z-index: +1;
-} */
+}
 
-/* .content-title h1 { */
-
-/* font-family: 'Fredericka the Great', cursive; */
-
-/* font-size: 90px !important;
+.main-title h1 {
+  /* font-family: 'Fredericka the Great', cursive; */
+  font-size: 90px !important;
   font-family: 'Amatic SC', cursive;
   text-align: center;
   color: rgba(0, 0, 0, 0.8);
-  z-index: +1;
-  margin: 0;
-} */
+}
 
 .navigation a {
   position: static;
@@ -39,20 +35,11 @@
   font-size: 30px;
   margin: 40px 200px;
   border-radius: 50%;
-  z-index: +2;
 }
 
 .navigation a:hover {
   background-color: rgba(140, 137, 135, 0.41);
 }
 
-h2 {
-  z-index: +1;
-  font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
-}
-
 h4 {
-  color: #FFE8CC;
-  z-index: +1;
-  line-height: 500px;
-}
+  color: #FFE8CC; */

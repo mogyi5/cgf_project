@@ -60,23 +60,45 @@ body#content {
   text-align: center;
 }
 
+.img-circle {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
 /* Instagram*/
 
 .fa-instagram {
-  background: #125688;
+  background: #f09433;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
   color: white;
-  font-size: 60px;
+  font-size: 100px;
+  text-align: center;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+  font-size: 80px;
+  text-align: center;
+}
+
+.fa-linkedin {
+  background: #0077b5;
+  color: white;
+  font-size: 80px;
+  text-align: center;
 }
 
 /* Style all font awesome icons */
 
 .fa {
   padding: 20px;
-  font-size: 60px;
-  width: 30px;
-  text-align: center;
+  font-size: 100px;
+  text-align: justify;
   text-decoration: none;
-  border-radius: 50%;
+  border-radius: 90%;
 }
 
 /* Add a hover effect  */
