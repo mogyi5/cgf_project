@@ -65,6 +65,7 @@ body#content {
 .fa-instagram {
   background: #125688;
   color: white;
+  font-size: 60px;
 }
 
 /* Style all font awesome icons */
@@ -78,7 +79,7 @@ body#content {
   border-radius: 50%;
 }
 
-/* Add a hover effect if you want */
+/* Add a hover effect  */
 
 .fa:hover {
   opacity: 0.7;
